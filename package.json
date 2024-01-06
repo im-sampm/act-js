@@ -1,5 +1,5 @@
 {
-  "name": "@kie/act-js",
+  "name": "@im-sampm/act-js",
   "version": "0.0.0-semantically-released",
   "description": "nodejs wrapper for nektos/act",
   "main": "build/src/index.js",
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kiegroup/act-js.git"
+    "url": "https://github.com/im-sampm/act-js.git"
   },
-  "homepage": "https://github.com/kiegroup/act-js#readme",
+  "homepage": "https://github.com/im-sampm/act-js#readme",
   "bugs": {
-    "url": "https://github.com/kiegroup/act-js/issues"
+    "url": "https://github.com/im-sampm/act-js/issues"
   },
   "keywords": [
     "github",
@@ -98,5 +98,8 @@
         }
       ]
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
